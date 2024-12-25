@@ -1,0 +1,68 @@
+{
+	"OrderBook": {
+		"intentname": "OrderBook",
+		"parameters": [{
+				"name": "title",
+				"placeholder": "$title",
+				"required": "True",
+				"prompts": [
+					"What's the name of the book?"
+				],
+				"context": "FlightBook_dialog_From"
+			},
+			{
+				"name": "author",
+				"placeholder": "$author",
+				"required": "True",
+				"prompts": [
+					"What's the author name?"
+				],
+				"context": "FlightBook_dialog_From"
+			},
+            		{
+				"name": "publisher",
+				"placeholder": "$publisher",
+				"required": "True",
+				"prompts": [
+					"Which publishers books you want to read"
+				],
+				"context": "FlightBook_dialog_To"
+			}
+		],
+		"actions": "BookIssue"
+	},
+
+	"StoreSearch": {
+		"intentname": "StoreSearch",
+		"parameters": [{
+				"name": "location",
+				"placeholder": "$location",
+				"required": "True",
+				"prompts": [
+					"In which city you want to look up the store in?"
+				],
+				"context": "FlightSearch_dialog_From"
+			},
+            {
+				"name": "type",
+				"placeholder": "$type",
+				"required": "True",
+				"prompts": [
+					"Which kind of stores you would like to prefer"
+				],
+				"context": "FlightSearch_dialog_From"
+			},
+			{
+				"name": "storenames",
+				"placeholder": "$storenames",
+				"required": "True",
+				"prompts": [
+					"What is the store name?",
+					"Please mention the store name."
+				],
+				"context": "FlightSearch_dialog_To"
+			}
+		],
+		"actions": "SearchStore"
+	}
+}

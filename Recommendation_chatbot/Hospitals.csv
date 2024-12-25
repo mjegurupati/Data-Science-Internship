@@ -1,0 +1,15 @@
+DISEASES,OPERATION,CONSULTATION_FEE,LOCATION,RECOMMENDATION
+Asthma,no,1500,kukatpally,OMNI Hospital
+Blood Cancer,yes,1800,secunderabad,Deccan Hospital
+Stroke,yes,5000000,Mettuguda,Yashoda Hospital
+chicken-pox,no,2500,Hanamkonda,Lakshmi sai Hospital
+Allergy,yes,15000,Mumbai,Curewell Hospital
+Cancer,no,500,kazipet,Prasad Hospital
+Pulmonary Disease,yes,500000,Punjagutta Road,NIMS Hospital
+Asthma,yes,60000,warangal,Samraksha Hospital
+Covid-19,no,1500,Secunderabad,Gandhi hospital
+Lupus,no,250,Mumbai,Seven Hills Hospital
+Hiv,no,1000,Rangareddy,Cloud9 Hospital
+Alzhemeirs,no,550,Hanamkonda,Vishwas Hospital
+Tuberculosiis,yes,1000000,secundrabad,Apollo Hospital
+Lung Cancer,no,4000,medchal,Amrutha hospital

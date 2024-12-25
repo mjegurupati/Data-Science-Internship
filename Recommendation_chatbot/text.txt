@@ -1,0 +1,2 @@
+ 8 .dat files in entities document
+ 2 .dat files in intents
